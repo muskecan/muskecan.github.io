@@ -1,9 +1,9 @@
 ---
 title: "[REDACTED] App – Insufficiently \"Encrypted\" Config Leads to Free InAppPurchase"
 layout: post
-date: 2016-02-24 22:44
-image: /assets/images/markdown.jpg
-headerImage: false
+date: 2020-02-24 22:44
+image: /assets/posts/4320x1080-2.png
+headerImage: true
 tag:
 - markdown
 - elements
@@ -17,7 +17,7 @@ Hello everyone, today I'll be showing you very bad encrypted method that you sho
 
 It is a mobile game and is very popular especially in here, Turkey. As you can see the picture below, it is widely known word game. It is very similar to the scrabble game.
 
-[![](images/Screen-Shot-2020-02-26-at-10_26_52-1024x825-1.png)](https://mustafakemalcan.com/wp-content/uploads/2020/03/Screen-Shot-2020-02-26-at-10_26_52-1024x825-1.png)It has over 5 million downloads on Android side and ~100K ratings on iOS side.[![](images/Screen-Shot-2020-02-26-at-11_37_35-1024x726-1.png)](https://mustafakemalcan.com/wp-content/uploads/2020/03/Screen-Shot-2020-02-26-at-11_37_35-1024x726-1.png)
+ <img class="image" src="{{ site.url }}/assets/posts/Screen-Shot-2020-02-26-at-10_26_52-1024x825-1.png">
 
 This app is on the market since 2013. It is an online game and you need to be online to use this app. I guess everyone thinks that their server is very secure, because they are managing tons of users.
 
