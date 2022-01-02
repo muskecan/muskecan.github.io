@@ -1,13 +1,18 @@
 ---
 title: "[REDACTED] App - Insufficiently \"Encrypted\" Config Leads to Free InAppPurchase"
-date: "2020-03-23"
-categories: 
-  - "articles"
-tags: 
-  - "android"
-  - "ios"
-coverImage: "4320x1080-2.png"
+layout: post
+date: 2020-03-23 10:00
+image: /assets/images/markdown.jpg
+headerImage: false
+category: blog
+author: muskecan
+tag: 
+- android
+- ios
+description: Markdown summary with different options
+star: true
 ---
+
 
 Hello everyone, today I'll be showing you very bad encrypted method that you shouldn't use for any kind of app/program.
 
