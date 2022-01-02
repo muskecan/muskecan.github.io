@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Computer Engineer | Hacker <a href="https://home.kpmg/ee/en/"@KPMG</a> | Proud member of @ExploitStudio & @Synack</p>
+<p>Computer Engineer | Hacker <a href="https://home.kpmg/ee/en/" target="_blank">@KPMG</a> | Proud member of @ExploitStudio & @Synack</p>
 
 {% include social-links.html %}
 
