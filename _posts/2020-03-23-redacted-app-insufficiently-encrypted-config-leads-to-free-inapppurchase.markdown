@@ -1,18 +1,17 @@
 ---
-title: "[REDACTED] App - Insufficiently \"Encrypted\" Config Leads to Free InAppPurchase"
+title: "Markdown Common Elements"
 layout: post
-date: 2020-03-23 10:00
+date: 2016-02-24 22:44
 image: /assets/images/markdown.jpg
 headerImage: false
-category: blog
-author: muskecan
-tag: 
-- android
-- ios
-description: Markdown summary with different options
+tag:
+- markdown
+- elements
 star: true
+category: blog
+author: johndoe
+description: Markdown summary with different options
 ---
-
 
 Hello everyone, today I'll be showing you very bad encrypted method that you shouldn't use for any kind of app/program.
 
