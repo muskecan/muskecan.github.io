@@ -1,5 +1,5 @@
 ---
-title: "Markdown Common Elements"
+title: "[REDACTED] App – Insufficiently \"Encrypted\" Config Leads to Free InAppPurchase"
 layout: post
 date: 2016-02-24 22:44
 image: /assets/images/markdown.jpg
@@ -8,8 +8,7 @@ tag:
 - markdown
 - elements
 category: blog
-author: johndoe
-description: Markdown summary with different options
+author: muskecan
 ---
 
 Hello everyone, today I'll be showing you very bad encrypted method that you shouldn't use for any kind of app/program.
