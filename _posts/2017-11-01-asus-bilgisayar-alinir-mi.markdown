@@ -52,5 +52,3 @@ Müşteri hizmetlerine durumu anlattığımda ise durum daha da komik bir hal al
 **Sistem bilgileri;**
 
 Intel Core i7 6700HQ Nvidia GTX 950m 8 GB DDR4 Ram Samsung 850 EVO SSD (Kutudan 1 TB 7200 Rpm HDD ile çıkıyor fakat kullanıcılara bellek ve depolamayı değiştirme seçeneği sunuluyor.)
-
-[Diğer blog yazılarımı okumak için tıklayın.](https://mustafakemalcan.com)
