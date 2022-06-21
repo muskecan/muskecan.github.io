@@ -1,8 +1,7 @@
 ---
 title: "SMARTSHEET XSS VIA FILE UPLOAD"
 date: "2017-12-26"
-categories: 
-  - "articles"
+category: blog
 tags: 
   - "bug-bounty"
   - "cyber-security"
