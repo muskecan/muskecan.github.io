@@ -1,19 +1,14 @@
 ---
 title: "Mustafa Kemal Can - muskecan - About me"
-date: "2017-09-29"
-categories: 
-  - "articles"
-tags: 
-  - "cyber-security"
-  - "muskecan"
-  - "mustafa-kemal-can"
-  - "mustafa-kemal-can-hakkinda"
-  - "mustafa-kemal-can-iletisim"
-  - "mustafa-kemal-can-kimdir"
-  - "mustafakemalcan"
-  - "white-hat"
-  - "who-am-i"
-coverImage: "who-am-i-mustafa-kemal-can.jpg"
+layout: post
+date: 2017-09-29 22:44
+category: blog
+author: muskecan
+headerImage: true
+tag: 
+  - cyber-security
+  - muskecan
+image: /assets/posts/who-am-i-mustafa-kemal-can.jpg
 ---
 
 **Hello world!** Just kidding I dont like cliches at all. I am **Mustafa Kemal Can** ( muskecan ) and this is my first post. I'll use this place as a blog, diary and place that I can speak. Let's talk about me.
