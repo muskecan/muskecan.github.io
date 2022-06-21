@@ -4,19 +4,19 @@ date: "2017-11-14"
 categories: blog
 layout: post
 headerImage: true
-tags: 
-  - "bug-bounty"
-  - "bypass"
-  - "bypass-2fa"
-  - "bypass-two-factor-auth"
-  - "bypass-two-factor-authentication"
-  - "hack"
-  - "hackerone"
-  - "login-gov"
-  - "muskecan"
-  - "mustafa-kemal-can"
-  - "vulnerability"
-image: /assets/posts/bypass-two-factor-authentication.png
+tag: 
+  - bug-bounty
+  - bypass
+  - bypass-2fa
+  - bypass-two-factor-auth
+  - bypass-two-factor-authentication
+  - hack
+  - hackerone
+  - login-gov
+  - muskecan
+  - mustafa-kemal-can
+  - vulnerability
+image: /assets/posts/Bypass-two-factor-authentication.png
 ---
 
 I found a way to **bypass two factor authentication** on login.gov which contains critical informations in it. This vulnerability occurs because of the misconfigurated token.
@@ -37,7 +37,7 @@ You can directly log in and **bypass two factor authentication** and if there is
 
 ## **Bypass two factor authentication and account lock down PoC :** 
 
-https://www.youtube.com/watch?v=WkWRjkHrGWM
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WkWRjkHrGWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can see the original report on [hackerone in](https://hackerone.com/reports/264090) **[here](https://hackerone.com/reports/264090).**
 
