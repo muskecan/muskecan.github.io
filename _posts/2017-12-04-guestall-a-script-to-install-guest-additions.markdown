@@ -1,8 +1,8 @@
 ---
 title: "Guestall - SIMPLE BUT IMPORTANT PYTHON SCRIPT"
 date: "2017-12-04"
-categories: 
-  - "articles"
+category: blog
+headerImage: true
 tags: 
   - "guest-additions"
   - "guestall"
@@ -11,7 +11,7 @@ tags:
   - "mustafa-kemal-can"
   - "virtualbox"
   - "vmware"
-coverImage: "guestall-simple-python-script.jpg"
+image: /assets/posts/guestall-simple-python-script.jpg
 ---
 
 Hi everyone. I coded a basic **python script** that install guest additions on your debian based linux. I called it **Guestall**, it supports **VMWare** and **VirtualBox.** It is easy to use.
