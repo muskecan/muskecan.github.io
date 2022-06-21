@@ -2,6 +2,8 @@
 title: "BYPASS TWO FACTOR AUTHENTICATION VULNERABILITY ON LOGIN.GOV"
 date: "2017-11-14"
 categories: blog
+layout: post
+headerImage: true
 tags: 
   - "bug-bounty"
   - "bypass"
@@ -14,7 +16,7 @@ tags:
   - "muskecan"
   - "mustafa-kemal-can"
   - "vulnerability"
-coverImage: "bypass-two-factor-authentication.png"
+image: /assets/posts/bypass-two-factor-authentication.png
 ---
 
 I found a way to **bypass two factor authentication** on login.gov which contains critical informations in it. This vulnerability occurs because of the misconfigurated token.
