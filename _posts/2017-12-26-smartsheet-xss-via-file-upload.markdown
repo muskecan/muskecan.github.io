@@ -14,7 +14,7 @@ tags:
   - "vulnerability"
   - "xss"
   - "xss-vulnerability"
-coverImage: "/assets/smartsheet-xss.png"
+coverImage: /assets/smartsheet-xss.png
 ---
 
 Hi, today I want to explain **XSS vulnerability** that I found on **Smartsheet.com**. **Smartsheet XSS vulnerability** is an interesting vulnerability because it occurs via **file upload**!
