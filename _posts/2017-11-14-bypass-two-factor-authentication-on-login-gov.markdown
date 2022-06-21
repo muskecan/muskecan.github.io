@@ -30,7 +30,7 @@ https://idp.staging.login.gov/sign\_up/enter\_password?confirmation\_token=XXX&r
 
 All you need to insert your confirmation token you get from your email. It says "This link will expire in 24 hours." but it is not and I can be used multiple times. :)
 
-[![Bypass two factor authentication on login.gov](images/Bypass-two-factor-authentication.png)](http://mustafakemalcan.com/wp-content/uploads/2017/11/Bypass-two-factor-authentication.png)
+[![Bypass two factor authentication on login.gov](images/Bypass-two-factor-authentication.png)](http://muskecan.github.io/assets/posts/Bypass-two-factor-authentication.png)
 
 Because of the structure of this site, when you use vulnerable link, you'll directly in your account. Because server thinks that you didnt add phone information and set password. So how could it ask for a password or 2FA?
 
