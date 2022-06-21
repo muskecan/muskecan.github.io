@@ -1,8 +1,7 @@
 ---
 title: "BYPASS TWO FACTOR AUTHENTICATION VULNERABILITY ON LOGIN.GOV"
 date: "2017-11-14"
-categories: 
-  - "articles"
+categories: blog
 tags: 
   - "bug-bounty"
   - "bypass"
