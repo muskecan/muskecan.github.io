@@ -1,8 +1,8 @@
 ---
 title: "ASUS bilgisayar alınır mı?"
-date: "2017-11-01"
-categories: 
-  - "articles"
+date: 2017-11-01 22:44
+category: blog
+headerImage: true
 tags: 
   - "asus"
   - "asus-bilgisayar"
@@ -15,7 +15,7 @@ tags:
   - "i7-6700hq"
   - "muskecan"
   - "mustafa-kemal-can"
-coverImage: "asus-x550vx.jpg"
+image: /assets/posts/asus-x550vx.jpg
 ---
 
 Herkese merhaba, internette çoğu kullanıcının yazdığı gibi "x bilgisayar markası nasıldır, alınır mı?" gibi sorulara yaşadığım bir sorunu anlatarak cevap vermeye çalışacağım. Bilgisayarımın markası **ASUS** olduğu için bu soruyu " **ASUS bilgisayar alınır mı?** " şeklinde düşünelim.
