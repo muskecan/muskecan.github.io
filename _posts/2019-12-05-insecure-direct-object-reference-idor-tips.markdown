@@ -1,8 +1,8 @@
 ---
 title: "Make IDOR great again!"
 date: "2019-12-05"
-categories: 
-  - "articles"
+category: blog
+headerImage: true
 tags: 
   - "bug-bounty-tips"
   - "critical-idor"
@@ -10,7 +10,7 @@ tags:
   - "idor"
   - "owasp"
   - "p1-idor"
-coverImage: "idor-tips-and-tricks-insecure-direct-object-reference.png"
+image: /assets/posts/idor-tips-and-tricks-insecure-direct-object-reference.png
 ---
 
 Hello folks, today I'll be sharing some important IDOR tips and tricks with you. This articled prepared in the lights of my past experiences, I hope it will be useful for the community!
