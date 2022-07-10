@@ -1,8 +1,8 @@
 ---
 title: "ITSLEARNING XSS PART 2"
 date: "2018-01-27"
-categories: 
-  - "articles"
+category: blog
+headerImage: true
 tags: 
   - "cyber-security"
   - "iframe"
@@ -11,7 +11,7 @@ tags:
   - "muskecan"
   - "mustafa-kemal-can"
   - "siber-guvenlik"
-coverImage: "itslearning-xss-vulnerability.jpg"
+image: /assets/posts/itslearning-xss-vulnerability.jpg
 ---
 
 Today I want to explain you how I can still be able to execute javascript payloads on Itslearning education syste. Itslearning XSS part 2 begins!
