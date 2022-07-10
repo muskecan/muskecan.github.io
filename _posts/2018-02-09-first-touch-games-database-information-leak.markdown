@@ -1,8 +1,8 @@
 ---
 title: "First Touch Games database information leak"
 date: "2018-02-09"
-categories: 
-  - "articles"
+category: blog
+headerImage: true
 tags: 
   - "database-information-leak"
   - "first-touch-games-vulnerability"
@@ -12,7 +12,7 @@ tags:
   - "muskecan"
   - "mustafa-kemal-can"
   - "vulnerability"
-coverImage: "first-touch-games-database-leak.jpg"
+image: /assets/posts/first-touch-games-database-leak.jpg
 ---
 
 Hi everyone in this post I'll show you how I find out **[First Touch Games](http://www.firsttouchgames.com) database information**. It is actually happens because of a common mistake. Let's see.
@@ -25,6 +25,6 @@ In my opinion they forgot this file when they are in upgrading their website. Bu
 
 Here is the proof of file. I blurred all of the valuable informations.
 
-## Status : 
+## Status : 
 
 1 January 2018 - I reported the issue, but there is **no response.**
