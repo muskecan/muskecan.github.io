@@ -1,14 +1,14 @@
 ---
 title: "Fronter XSS - 3 XSS in 1 Blogpost"
 date: "2018-04-06"
-categories: 
-  - "articles"
+category: blog
+headerImage: true
 tags: 
   - "fronter"
   - "fronter-vulnerabilities"
   - "fronter-vulnerability"
   - "stored-xss"
-coverImage: "fronter-xss-vulnerabilities.jpeg"
+image: /assets/posts/fronter-xss-vulnerabilities.jpeg
 ---
 
 Today I want to write about Fronter and Fronter XSS Vulnerabilies. Fronter is a learning platform from leading ICT provider, itslearning. Based on Nordic educational models, Fronter is a comprehensive teaching and learning solution used in schools and universities worldwide. As part of the itslearning portfolio, the Fronter solution has a full range of available support and professional services.
