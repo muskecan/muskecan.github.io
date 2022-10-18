@@ -1,7 +1,7 @@
 ---
 title: "Do not trust on what comes as default"
 layout: post
-date: 2022-10-24 22:44
+date: 2022-09-24 22:44
 image: /assets/posts/4320x1080-2.png
 headerImage: true
 tag:
