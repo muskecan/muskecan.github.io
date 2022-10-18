@@ -12,7 +12,7 @@ author: muskecan
 
 I'd like to share an interesting research with you. It is related to one of the biggest ISPs in Estonia and Finland. I am one of the customers of this company and pretty happy with their services.
 
- ## What is the issue?
+## What is the issue?
 
 The issue is related to the default configuration of the router firmware which is left unchanged by most people. By default, the SSID is composed of 6 alphanumeric characters. So, it is pretty easy to point customers of the ISP who use the default configuration. I will talk about this later.
 
@@ -22,7 +22,7 @@ This means that it takes approximately 30 mins to crack it up. All you need to d
 
 Default configurations are not the most security-oriented thing in the universe but they should comewith at least a decent level of security to protect customers from potential attacks. In this case, unfortunately, there is a big security hole and to be honest, the impact is huge
 
- ## How about the possible impact?
+## How about the possible impact?
 
 If a user uses the default SSID and password, it is highly likely that the login credentials of the router management panel are also left on default settings. Basically, an attacker can have administrator privileges on the customer's router. What is going to happen if the attacker changes the DNS settings of the router or adds a VPN configuration for your default connection? Oh, this seems bad.
 
