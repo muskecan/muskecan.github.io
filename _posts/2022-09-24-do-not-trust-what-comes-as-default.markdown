@@ -12,7 +12,7 @@ author: muskecan
 
 I'd like to share an interesting research with you. It is related to one of the biggest ISPs in Estonia and Finland. I am one of the customers of this company and pretty happy with their services.
 
-## What is the issue?
+ ## What is the issue?
 
 The issue is related to the default configuration of the router firmware which is left unchanged by most people. By default, the SSID is composed of 6 alphanumeric characters. So, it is pretty easy to point customers of the ISP who use the default configuration. I will talk about this later.
 
@@ -24,11 +24,11 @@ Default configurations are not the most security-oriented thing in the universe 
 
  ## How about the possible impact?
 
- If a user uses the default SSID and password, it is highly likely that the login credentials of the router management panel are also left on default settings. Basically, an attacker can have administrator privileges on the customer's router. What is going to happen if the attacker changes the DNS settings of the router or adds a VPN configuration for your default connection? Oh, this seems bad.
+If a user uses the default SSID and password, it is highly likely that the login credentials of the router management panel are also left on default settings. Basically, an attacker can have administrator privileges on the customer's router. What is going to happen if the attacker changes the DNS settings of the router or adds a VPN configuration for your default connection? Oh, this seems bad.
 
- I used my awesome(?) Python skills and created a tool to demonstrate the number of potentially vulnerable routers. Unfortunately I can not share the source code.
+I used my awesome(?) Python skills and created a tool to demonstrate the number of potentially vulnerable routers. Unfortunately I can not share the source code.
 
- The code does not do any harmful activities. I used 2 basic regexes to detect default SSIDs and the script prints it out with the percentage information.
+The code does not do any harmful activities. I used 2 basic regexes to detect default SSIDs and the script prints it out with the percentage information.
 
  <img class="image" src="{{ site.url }}/assets/posts/python-script.png">
 
@@ -38,11 +38,11 @@ The results were shocking even for me. I was expecting to see something around 2
 
  <img class="image" src="{{ site.url }}/assets/posts/graph.png">
 
- %37% of the routers in random 7 different streets in the city were vulnerable due to the insufficient default firmware that ISP routers have.
+37% of the routers in random 7 different streets in the city were vulnerable due to the insufficient default firmware that ISP routers have.
 
 ## Mitigation?
 
-ell, mitigation recommendations are pretty obvious. Default passwords should not be composed of only numbers. Instead, alphanumeric default passwords with a longer length would be enough for a default configuration. But changing the password for every user with a new firmware update? Noone will install such an update in the end...
+Well, mitigation recommendations are pretty obvious. Default passwords should not be composed of only numbers. Instead, alphanumeric default passwords with a longer length would be enough for a default configuration. But changing the password for every user with a new firmware update? Noone will install such an update in the end...
 
 How about the usage of ISP's remote configuration capabilities? This is something that can only be done by the ISP. But the ISP should contact their customers before such an operation. Otherwise, the customers would not be able to access the Internet.
 
