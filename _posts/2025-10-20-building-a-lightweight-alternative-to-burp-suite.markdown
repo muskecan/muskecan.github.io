@@ -32,7 +32,7 @@ It's a Firefox extension that lives in your DevTools. Think of it as Burp's Inte
 
 Open Firefox DevTools (F12), click on the "Enhanced Network Tab" panel, toggle "Intercept", and you're immediately testing. No configuration. No certificates. No breaking modern web applications.
 
-![Enhanced Network Tab Dashboard](assets/posts/dashboard.png)
+![Enhanced Network Tab Dashboard]({{ site.url }}/assets/posts/dashboard.png)
 
 The UI is intentionally similar to Burp Suite. If you know Burp, you'll feel right at home.
 
@@ -59,7 +59,7 @@ Don't get me wrong—for deep pentesting with active scanning, Intruder, and ext
 **Request Interception**  
 Toggle "Intercept" and every matching request pauses before being sent. Modify the method, URL, headers, or body. Test for SQL injection, XSS, IDOR, privilege escalation—whatever you need.
 
-![Request Interception Modal](assets/posts/interception.png)
+![Request Interception Modal]({{ site.url }}/assets/posts/interception.png)
 
 You can configure what to intercept using regex patterns. For example, only intercept `/api/*` endpoints and ignore static resources. This keeps the app running smoothly while you focus on testing.
 
