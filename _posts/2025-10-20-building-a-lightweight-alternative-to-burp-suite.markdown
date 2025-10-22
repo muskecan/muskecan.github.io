@@ -123,7 +123,7 @@ Give it a try. Let me know what you find.
 ---
 
 **Install**: [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/enhanced-network-tab/)  
-**Source**: [GitHub](https://github.com/yourusername/enhanced-network-tab)
+**Source**: [GitHub](https://github.com/muskecan/enhanced-network-tab)
 
 Happy hunting! 🎯
 
