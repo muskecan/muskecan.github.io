@@ -102,7 +102,7 @@ This isn't just about good practice—it's about client trust and rules of engag
 
 Install from Firefox Add-ons: [Enhanced Network Tab](https://addons.mozilla.org/en-US/firefox/addon/enhanced-network-tab/)
 
-Or build from source on [GitHub](https://github.com/yourusername/enhanced-network-tab).
+Or build from source on [GitHub](https://github.com/muskecan/enhanced-network-tab).
 
 Once installed, open Firefox DevTools (F12), go to "Enhanced Network Tab", toggle "Capture", and start testing.
 
