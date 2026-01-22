@@ -13,7 +13,7 @@ tags:
 image: /assets/posts/idor-tips-and-tricks-insecure-direct-object-reference.png
 ---
 
-Hello folks, today I'll be sharing some important IDOR tips and tricks with you. This articled prepared in the lights of my past experiences, I hope it will be useful for the community!
+Hello folks, today I'll be sharing some important IDOR tips and tricks with you. This article was prepared in the lights of my past experiences, I hope it will be useful for the community!
 
 ## What the hell is IDOR?
 
@@ -25,19 +25,19 @@ Our friends at **OWASP** explained it for us long time ago. Here is the [full s
 
 ## Here is the IDOR tips and tricks!
 
-Everybody say that IDOR vulnerability is kinda easy to exploit and has low or medium impacts. That means you are not gonna earn a lot of money from IDOR. **Totally Wrong.**
+Everyone says that IDOR vulnerability is kinda easy to exploit and has low or medium impact. That means you are not gonna earn a lot of money from IDOR. **Totally Wrong.**
 
-I guess almost everyone know that move function of the systems are perfect structure to find an **IDOR.** How about copy function? In almost every system, there is some file/folder move and copy function for some different purposes.
+I guess almost everyone knows that the move function of the systems is a perfect structure to find an **IDOR.** How about copy function? In almost every system, there is some file/folder move and copy function for some different purposes.
 
-What i recommend is, you should go after from copy and move functions. If you can not be able to find IDOR on move function, try to copy some restricted content into your directory. For example pay checks, addresses, phone numbers, credentials almost every personal data is going to make it more valuable thanks to **GPDR.**
+What I recommend is that you should look for copy and move functions. If you cannot find IDOR on move function, try to copy some restricted content into your directory. For example pay checks, addresses, phone numbers, credentials almost every personal data is going to make it more valuable thanks to **GDPR.**
 
-I want to share 2 IDOR adventures of my past experiences occured on copy function;
+I want to share 2 IDOR adventures from my past experiences that occurred on copy function;
 
 1. Accessing locked folders and contents of it. **PoC** :
     
     <iframe src="https://www.youtube.com/embed/HNZTT49IHkY" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
     
     As you can see, I can bypass locked folders by simply creating a copy of this folder.
-2. Accessing all uploaded documents in the subdomain.I can say that this one is accepted as critical issue because everyone can access lots of personal data via simple **GET** requests. I can not share the full URL or detail about product but it was looking like this;  www.redacted.com/move.php?move=1&ID=XXXXXXXI tried to change ID parameter for random numbers but it didnt work. But I realised that Move parameter is also crucial. If I set it as 0, moving process turning into copying process and you can simply create a copy any file you want inside of your personal diskspace.
+2. Accessing all uploaded documents in the subdomain.I can say that this one is accepted as critical issue because everyone can access lots of personal data via simple **GET** requests. I can not share the full URL or detail about product but it was looking like this;  www.redacted.com/move.php?move=1&ID=XXXXXXXI tried to change ID parameter for random numbers but it didnt work. But I realised that Move parameter is also crucial. If I set it as 0, moving process turning into copying process and you can simply create a copy of any file you want inside of your personal diskspace.
 
-As a result, you should take a look copy functions for IDOR. I believe that you are gonna find lots of issues with my IDOR tips and tricks blogpost.
+As a result, you should take a look copy functions for IDOR. I believe that you will find lots of issues with my IDOR tips and tricks blogpost.

