@@ -14,12 +14,12 @@ tags:
 image: /assets/posts/guestall-simple-python-script.jpg
 ---
 
-Hi everyone. I coded a basic **python script** that install guest additions on your debian based linux. I called it **Guestall**, it supports **VMWare** and **VirtualBox.** It is easy to use.
+Hi everyone. I coded a basic **python script** that installs guest additions on your debian based linux. I called it **Guestall**, it supports **VMWare** and **VirtualBox.** It is easy to use.
 
-I've made it because I always forget these things. It is not a problem anymore with guestall. I hope it helps everyone like me.
+I made it because I always forget these things. It is not a problem anymore with guestall. I hope it helps everyone like me.
 
 ## Guestall on Github
 
 Click [here](https://github.com/muskecan/guestall) to reach Guestall.
 
-If you need any support you can contact with me on github or simply click [here](http://mustafakemalcan.com/about-mustafa-kemal-can/).
+If you need any support you can contact me on github or simply click [here](http://mustafakemalcan.com/about-mustafa-kemal-can/).

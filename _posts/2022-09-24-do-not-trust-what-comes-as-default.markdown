@@ -16,11 +16,11 @@ I'd like to share an interesting research with you. It is related to one of the 
 
 The issue is related to the default configuration of the router firmware which is left unchanged by most people. By default, the SSID is composed of 6 alphanumeric characters. So, it is pretty easy to point customers of the ISP who use the default configuration. I will talk about this later.
 
-How about the default password? Well, this is where the story begins. By default, the password comes with a length of 9 characters. BUT, it is onlycomposed of numbers.
+How about the default password? Well, this is where the story begins. By default, the password comes with a length of 9 characters. BUT, it is only composed of numbers.
 
 This means that it takes approximately 30 mins to crack it up. All you need to do is to create a wordlist for all the combinations. The size of the wordlist is only 9GB.
 
-Default configurations are not the most security-oriented thing in the universe but they should comewith at least a decent level of security to protect customers from potential attacks. In this case, unfortunately, there is a big security hole and to be honest, the impact is huge
+Default configurations are not the most security-oriented thing in the universe but they should come with at least a decent level of security to protect customers from potential attacks. In this case, unfortunately, there is a big security hole and to be honest, the impact is huge
 
 ## How about the possible impact?
 
@@ -32,7 +32,7 @@ The code does not do any harmful activities. I used 2 basic regexes to detect de
 
  <img class="image" src="{{ site.url }}/assets/posts/python-script.png">
 
-I have conducted my tests in seven different and random streets in the city. I will not share the nameof the streets, nor SSIDs. But I can share the overall percentage of the results.
+I have conducted my tests in seven different and random streets in the city. I will not share the name of the streets, nor SSIDs. But I can share the overall percentage of the results.
 
 The results were shocking even for me. I was expecting to see something around 20% but in the end, the reality was much higher than that.
 
@@ -42,7 +42,7 @@ The results were shocking even for me. I was expecting to see something around 2
 
 ## Mitigation?
 
-Well, mitigation recommendations are pretty obvious. Default passwords should not be composed of only numbers. Instead, alphanumeric default passwords with a longer length would be enough for a default configuration. But changing the password for every user with a new firmware update? Noone will install such an update in the end...
+Well, mitigation recommendations are pretty obvious. Default passwords should not be composed of only numbers. Instead, alphanumeric default passwords with a longer length would be enough for a default configuration. But changing the password for every user with a new firmware update? No one will install such an update in the end...
 
 How about the usage of ISP's remote configuration capabilities? This is something that can only be done by the ISP. But the ISP should contact their customers before such an operation. Otherwise, the customers would not be able to access the Internet.
 

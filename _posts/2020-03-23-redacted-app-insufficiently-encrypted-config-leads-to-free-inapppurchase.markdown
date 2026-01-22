@@ -11,11 +11,11 @@ category: blog
 author: muskecan
 ---
 
-Hello everyone, today I'll be showing you very bad encrypted method that you shouldn't use for any kind of app/program.
+Hello everyone, today I'll be showing you a very badly encrypted method that you shouldn't use for any kind of app/program.
 
 ## What is \[REDACTED\]?
 
-It is a mobile game and is very popular especially in here, Turkey. As you can see the picture below, it is widely known word game. It is very similar to the scrabble game.
+It is a mobile game and is very popular especially here in Turkey. As you can see the picture below, it is a widely known word game. It is very similar to the scrabble game.
 
  <img class="image" src="{{ site.url }}/assets/posts/Screen-Shot-2020-02-26-at-10_26_52-1024x825-1.png">
 
@@ -49,4 +49,4 @@ Whole process is completely same. Root required. Gameconfig.dat is located under
 
 See ya!
 
-NOTE : I know that, most probably REDACTED doesnt mean anything for you, but I need to do it :) You can still find the application if you want to see everything with your own eyes.
+NOTE: I know that most probably REDACTED doesnt mean anything for you, but I need to do it :) You can still find the application if you want to see everything with your own eyes.
